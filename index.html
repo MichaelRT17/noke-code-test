@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nokē | Bluetooth padlock, door lock, U-lock | Keyless Lock Management for your Business</title>
+    <link rel="icon" href="./images/lock-logo.png">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+
+    <!-- JavaScript to show and hide mobile drop down menu -->
+    <script>
+        function showMenu() {
+            if (document.getElementById("nav-drop-down").style.top == '-320px') {
+                document.getElementById("nav-drop-down").style.top = '80px';
+            }
+            else {
+                console.log('me')
+                document.getElementById("nav-drop-down").style.top = '-320px';
+            }
+        }
+    </script>
+    <!-- End of JavaScript -->
+
+
+
+    <!-- Main header, website navigation options, and drop down menu (mobile view) -->
+    <header class="header-and-nav-container">
+
+        <img src="./images/nokeLogoStand.png" alt="noke-logo" class="noke-logo">
+
+        <nav class="main-nav-container" id="main-nav-container-adjust">
+            <p class="main-nav-options">PRODUCTS</p>
+            <p class="main-nav-options">SOFTWARE</p>
+            <p class="main-nav-options">INDUSTRIES</p>
+            <p class="main-nav-options">ABOUT NOKĒ</p>
+            <p class="main-nav-options">SUCCESS STORIES</p>
+        </nav>
+
+        <nav class="secondary-nav-container">
+            <p class="secondary-nav-options">Login</p>
+            <p class="secondary-nav-options">Support</p>
+            <div class="section-button" id="secondary-nav-button">
+                <p>Request Info</p>
+            </div>
+        </nav>
+
+        <div class="menu-icons-container">
+            <img src="./images/menu.png" alt="menu drop down" class="menu-icons" onclick="showMenu()">
+        </div>
+
+    </header>
+
+    <nav class="main-nav-container-mobile" id="nav-drop-down" style="top: -320px">
+        <p class="main-nav-options">PRODUCTS</p>
+        <p class="main-nav-options">SOFTWARE</p>
+        <p class="main-nav-options">INDUSTRIES</p>
+        <p class="main-nav-options">ABOUT NOKĒ</p>
+        <p class="main-nav-options">SUCCESS STORIES</p>
+        <nav class="secondary-nav-container-mobile">
+            <p class="secondary-nav-options">Login</p>
+            <p class="secondary-nav-options">Support</p>
+            <div class="section-button">
+                <p>Request Info</p>
+            </div>
+        </nav>
+    </nav>
+    <!-- End of main header, navigation, and menu -->
+
+
+
+    <!-- Main information section, main website image -->
+    <main class="main-container">
+        <div class="main-title-and-information-container">
+            <h3 id="main-title-gray">WE BUILD SMART LOCKS</h3>
+            <h1 id="main-title-blue">AND A PLATFORM<br /> TO SUPPORT THEM</h1>
+        </div>
+        <div class="main-title-and-information-container">
+            <h5 id="information-title-blue">NOKĒ SMART-SECURITY PLATFORM</h5>
+            <p id="information-title-gray">
+                Through an easy to use app and cloud-based web<br />
+                dashboard, this centralized access management<br />
+                platform streamlines the physical security<br />
+                process and puts you in control.
+            </p>
+        </div>
+    </main>
+    <!-- End of main info and main image -->
+
+
+
+    <!-- Large subsections, including web-portal and app  -->
+    <section class="section-container" id="web-portal-section">
+        <div class="section-heading-container" id="web-portal-and-app-headings">
+            <h3 class="section-heading">THE <span>WEB PORTAL</span></h3>
+            <p class="section-subheading">Let the right people in and keep the wrong people out</p>
+        </div>
+
+        <div id="web-portal-information">
+            <img src="./images/computer.png" alt="computer access locks" class="large-section-image">
+
+            <div>
+                <h5 class="section-info-title">NOKĒ DESKTOP PORTAL</h5>
+                <p class="section-information">This web-based portal provides you with
+                    an expansive tool used to: manage lock functions
+                    and users, track digital keys, share real-time
+                    data and even integrates with customer's
+                    existing platforms.</p>
+                <div class="section-button">
+                    <p>See all the functions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-container" id="app-section">
+        <div class="section-heading-container" id="web-portal-and-app-headings">
+            <h3 class="section-heading">THE <span>APP</span></h3>
+            <p class="section-subheading">The key to never losing a key</p>
+        </div>
+
+        <div id="app-information">
+            <img src="./images/phone.png" alt="smart phone" class="large-section-image">
+
+            <div>
+                <h5 class="section-info-title">NOKĒ MOBILE APP</h5>
+                <p class="section-information">From the back gate to the office door, the cargo
+                    container or electrical cabinet, with the Nokē mobile
+                    app and any smart device, ditch the inefficiencies of
+                    traditional key management and go keyless.</p>
+                <div class="section-button">
+                    <p>Learn more about the app</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of large subsections -->
+
+
+
+    <!-- Small subsections, including api and cloud -->
+    <section id="combined-api-and-cloud-sections">
+
+        <section class="section-container" id="api-integration-section">
+            <div class="section-heading-container">
+                <h3 class="section-heading">API <span>INTEGRATION</span></h3>
+                <p class="section-subheading">Let's connect our platform with yours. It's that easy.</p>
+            </div>
+
+            <div id="combined-api-and-cloud-information">
+                <img src="./images/double-computer.png" alt="two computer monitors" class="large-section-image">
+
+                <div>
+                    <h5 class="section-info-title">NOKĒ API INTEGRATION</h5>
+                    <p class="section-information">With Nokē’s simple API integration,
+                        you can use your own existing platforms
+                        and apps to control your locks.</p>
+                    <div class="section-button">
+                        <p>Learn more about the API</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-container" id="cloud-section">
+            <div class="section-heading-container">
+                <h3 class="section-heading"><span>CLOUD</span> TECHNOLOGY</h3>
+                <p class="section-subheading">Our cloud helps businesses rise above</p>
+            </div>
+
+            <div id="combined-api-and-cloud-information">
+                <img src="./images/Screen Shot 2018-07-06 at 3.16.03 PM.png" alt="computer connected to cloud" class="large-section-image">
+
+                <div>
+                    <h5 class="section-info-title">NOKĒ API INTEGRATION</h5>
+                    <p class="section-information">Nokē’s cloud based technology
+                        makes it easy to scale your platform,
+                        store and share all security data, and
+                        syncronize locks, digital keys, the app
+                        and web portal, all in real-time</p>
+                    <div class="section-button">
+                        <p>See how the Nokē cloud can help your business</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+    <!-- End of small subsections -->
+
+
+
+    <!-- Physical data security and features section -->
+    <section id="physical-data-security-section">
+        <div class="section-heading-container">
+            <h3 class="section-heading">PHYSICAL SECURITY,<br /><span>MEET DATA SECURITY</span></h3>
+            <p id="data-section-subheading">With customers in nearly every industry and region across the world,
+                including
+                highly regulated industries such as utilities and government applications,
+                we ensure our products and services contain the highest level data security,
+                compliance and privacy standards</p>
+        </div>
+
+        <img src="./images/security LR image.jpg" alt="computer hacker" class="large-section-image">
+
+        <div id="features-section-container">
+            <div class="feature-container">
+                <img src="./images/icon4.png" alt="blue-tooth" class="feature-icons">
+                <div>
+                    <h5 class="feature-title">Bluetooth 4.0 Security</h5>
+                    <p class="feature-description">Bluetooth smart encryption technology</p>
+                </div>
+            </div>
+            <div class="feature-container">
+                <img src="./images/icon3.png" alt="key transfer" class="feature-icons">
+                <div>
+                    <h5 class="feature-title">Cloud-based Key Transfer</h5>
+                    <p class="feature-description">Keys are stored on secure servers to prevent compromising
+                        sensitive data</p>
+                </div>
+            </div>
+            <div class="feature-container">
+                <img src="./images/icon5.png" alt="hand" class="feature-icons">
+                <div>
+                    <h5 class="feature-title">Cyrptographic Key Protocol</h5>
+                    <p class="feature-description">Keys are assigned based on permission levels and
+                        used to encrypt all communication to and from the lock</p>
+                </div>
+            </div>
+            <div class="feature-container">
+                <img src="./images/icon6.png" alt="server" class="feature-icons">
+                <div>
+                    <h5 class="feature-title">Third-Party Testing</h5>
+                    <p class="feature-description">The Nokē system has passed rigorous third-party testing</p>
+                </div>
+            </div>
+            <div class="feature-container">
+                <img src="./images/icon2.png" alt="shield" class="feature-icons">
+                <div>
+                    <h5 class="feature-title">End To End Encryption</h5>
+                    <p class="feature-description">Double-secured transmissions using end-to-end 128-bit AES
+                        encryption</p>
+                </div>
+            </div>
+            <div class="feature-container">
+                <img src="./images/icon1.png" alt="locked laptop" class="feature-icons">
+                <div>
+                    <h5 class="feature-title">Custom Security Layer</h5>
+                    <p class="feature-description">Additional custom-built encryption protocol prevents Bluetooth
+                        replay attack</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End of physical data and features -->
+
+
+
+</body>
+
+</html>

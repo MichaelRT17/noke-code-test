@@ -1,0 +1,553 @@
+/* Mobile View */
+    p {
+        line-height: 1.25;
+    }
+/* Header Section */
+    .header-and-nav-container {
+        height: 80px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 5;
+        position: relative;
+    }
+
+    .menu-icons {
+        height: 36px;
+        color: #939598;
+    }
+
+    .menu-icons-container {
+        width: 88px;
+        padding: 16px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /* Logo */
+        .noke-logo {
+            height: 40px;
+            padding: 16px;
+            cursor: pointer;
+        }
+
+    /* Main Nav Bar */
+        .main-nav-container-mobile {
+            position: absolute;
+            height: 320px;
+            width: 100vw;
+            padding: 8px 0;
+            background-color: #F3F3F4;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            transition: .3s;
+            z-index: 4;
+            opacity: .99;
+        }
+
+        .main-nav-options {
+            color: #6D6E70;
+            font-size: 12px;
+            font-family: 'Poppins';
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .main-nav-container {
+            display: none;
+        }
+
+    /* Secondary Nav Bar */
+        .secondary-nav-container-mobile {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 200px;
+        }
+
+        .secondary-nav-options {
+            color: #939598;
+            font-size: 10px;
+            font-family: 'Poppins';
+            cursor: pointer;
+        }
+
+        .secondary-nav-container {
+            display: none;
+        }
+
+/* Main Info Section */
+    .main-container {
+        height: 80vh;
+        background-image: url("./images/software\ homepage\ header\ image\ 3.jpg");
+        background-repeat: no-repeat;
+        background-position: left center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Title and Information*/
+        .main-title-and-information-container {
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #main-title-gray {
+            color: #939598;
+            font-size: 24px;
+            font-family: 'Poppins';
+        }
+
+        #main-title-blue {
+            color: #0671BA;
+            font-size: 32px;
+            font-family: 'Poppins';
+            font-weight: bolder;
+        }
+
+        #information-title-blue {
+            color: #0671BA;
+            font-size: 16px;
+            font-family: 'Poppins';
+            font-weight: bold;
+        }
+
+        #information-title-gray {
+            color: #6D6E70;
+            font-size: 12px;
+            font-family: 'Poppins';
+            text-align: center;
+        }
+
+/* Sections */
+    #web-portal-section {
+        background-color: white;
+    }
+
+    #app-section {
+        background-color: #F3F3F4;
+    }
+
+    #api-integration-section {
+        background-color: #E5F1FA;
+    }
+
+    #cloud-section {
+        background-color: #E7E7E8;
+    }
+
+    #physical-data-security-section {
+        background-color: #0671BA;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+    }
+
+    .section-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+    }
+
+    .section-container div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 0;
+    }
+
+    /* Section Heading */
+
+        .section-heading {
+            color: #0671BA;
+            font-size: 24px;
+            font-family: 'Poppins';
+        }
+
+        .section-heading span {
+            font-weight: bolder;
+        }
+
+        .section-subheading {
+            color: #939598;
+            font-size: 12px;
+            font-family: 'Poppins';
+        }
+
+    /* Section Image */
+        .large-section-image {
+            height: 240px;
+            margin: 0 auto;
+        }
+
+    /* Section Information */
+        .section-info-title {
+            color: #0671BA;
+            font-size: 12px;
+            font-family: 'Poppins';
+            font-weight: bold;
+        }
+
+        .section-information {
+            color: #939598;
+            font-size: 10px;
+            font-family: 'Poppins';
+            text-align: center;
+            padding: 8px 0 16px;
+            width: 240px;
+        }
+
+        .section-button {
+            background: #0671BA;
+            border-radius: 16px;
+            color: white;
+            font-family: 'Poppins';
+            font-size: 10px;
+            text-align: center;
+            padding: 4px 8px;
+            cursor: pointer;
+        }
+
+        .section-container .section-button {
+            padding: 4px 8px;
+        }
+
+    /* Physical Data Security Section */
+        .feature-container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            font-family: 'Poppins';
+            margin: 16px 0;
+        }
+
+        #physical-data-security-section h3 {
+            color: white;
+            text-align: center;
+        }
+
+        #physical-data-security-section div:nth-child(0) {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px;
+        }
+
+        #data-section-subheading {
+            color: white;
+            font-size: 10px;
+            padding: 16px 0 0 0;
+            text-align: center;
+            font-family: 'Poppins'
+        }
+
+        .feature-title {
+            font-size: 10px;
+            color: white;
+        }
+
+        .feature-description {
+            font-size: 10px;
+            color: #BCBDC0;
+        }
+
+        .feature-icons {
+            width: 32px;
+            padding: 0 16px 0 0;
+        }
+
+        #features-section-container {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .section-heading-container {
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+
+
+
+/* Desktop View */
+
+@media(min-width: 600px) {
+    /* Header Section */
+        .header-and-nav-container {
+            height: 148px;
+        }
+
+        .menu-icons-container {
+            display: none;
+        }
+
+        /* Logo */
+            .noke-logo {
+                width: 128px;
+                height: 68px;
+                padding: 16px 32px;
+            }
+
+        /* Main Nav Bar */
+            .main-nav-container-mobile {
+                display: none;
+            }
+
+            .main-nav-container {
+                width: 720px;
+                height: 40%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-end;
+            }
+
+            #main-nav-container-adjust {
+                position: absolute;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+            }
+
+            .main-nav-options {
+                font-size: 20px;
+                font-weight: 600;
+            }
+
+        /* Secondary Nav Bar */
+            .secondary-nav-container-mobile {
+                display: none;
+            }
+
+            .secondary-nav-container {
+                width: 300px;
+                height: 60%;
+                padding: 24px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
+
+            .secondary-nav-options {
+                font-size: 18px;
+                padding: 4px;
+            }
+
+            #secondary-nav-button {
+                font-size: 18px;
+                font-weight: 600;
+                padding: 4px 12px;
+            }
+
+    /* Main Info Section */
+        .main-container {
+            height: 80vh;
+            background-size: cover;
+            align-items: flex-start;
+        }
+        /* Title and Information */
+            .main-title-and-information-container {
+                padding: 16px 88px;
+                align-items: flex-start;
+            }
+
+            #main-title-gray {
+                font-size: 40px;
+            }
+
+            #main-title-blue {
+                font-size: 60px;
+            }
+
+            #information-title-blue {
+                font-size: 24px;
+            }
+
+            #information-title-gray {
+                font-size: 20px;
+                text-align: left;
+            }
+
+    /* Sections */
+        #api-integration-section {
+            padding: 0;
+            width: 50%;
+        }
+
+        #cloud-section {
+            padding: 0;
+            width: 50%;
+        }
+
+        #combined-api-and-cloud-sections .section-container {
+            display: initial;
+        }
+
+        .section-container div {
+            align-items: flex-start;
+            padding: 48px 64px 0px;
+        }
+
+        #web-portal-information {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #app-information {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        #combined-api-and-cloud-sections {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #web-portal-and-app-headings {
+            align-items: center;
+            margin: 0;
+        }
+
+        #combined-api-and-cloud-sections .section-heading-container {
+            padding: 88px 0;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            width: 420px;
+            margin: 0 auto;
+        }
+
+        .section-heading-container h3 {
+            margin: 0;
+        }
+
+        #combined-api-and-cloud-information {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 0;
+        }
+
+        #combined-api-and-cloud-information > div {
+            padding: 0;
+        }
+
+        #combined-api-and-cloud-information img {
+            width: 160px;
+            height: initial;
+            padding: 8px 0 64px;
+            margin: 0 40px;
+        }
+
+        #combined-api-and-cloud-information .section-button {
+            margin: 16px 0 0 0;
+        }
+
+        /* Section Heading */
+            .section-heading {
+                margin: 0 auto;
+                font-size: 36px;
+            }
+
+            .section-subheading {
+                font-size: 16px;
+            }
+
+        /* Section Image */
+            .large-section-image {
+                height: 360px;
+                padding: 0 64px 56px;
+            }
+
+        /* Section Information */
+            .section-info-title, .section-information {
+                text-align: left;
+            }
+
+            .section-info-title {
+                font-size: 20px;
+            }
+
+            .section-information {
+                font-size: 16px;
+                width: 320px;
+            }
+
+            .section-button {
+                font-size: 16px;
+            }
+    /* Physical Data Security Section */
+        #physical-data-security-section > img {
+            height: 100vh;
+            width: 480px;
+            object-fit: cover;
+            object-position: 85% 15%;
+            position: absolute;
+            margin: 0;
+            padding: 0;
+        }    
+
+        #physical-data-security-section {
+            height: 100vh;
+            display: block;
+            padding: 0;
+            text-align: left;
+        }
+
+        #physical-data-security-section > div {
+            align-items: flex-start;
+        }
+
+        #physical-data-security-section .section-heading-container {
+            width: 610px;
+            align-items: flex-start;
+            position: absolute;
+            left: 45%;
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+
+        #physical-data-security-section h3 {
+            text-align: left;
+        }
+
+        #data-section-subheading {
+            font-size: 16px;
+            text-align: left;
+        }
+
+        .feature-title, .feature-description {
+            font-size: 16px;
+        }
+
+        #features-section-container {
+            margin-top: 216px;
+            position: absolute;
+            left: 45%;
+            width: 40%;
+            display: flex;
+            align-items: flex-start;
+        }
+}
